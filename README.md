@@ -226,3 +226,47 @@ traceroute google.com
 nslookup google.com
 
 ```
+
+## Security
+### Generate SSH Key Pair
+
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+```
+
+### Copy SSH Key to Remote Host:
+
+```
+ssh-copy-id user@remote_host
+
+```
+
+### Set Up Firewall Rules with UFW:
+
+```
+
+sudo ufw enable
+
+sudo ufw allow 22/tcp
+
+sudo ufw deny 80/tcp
+
+sudo ufw status
+
+```
+
+### Check for Open Ports Using Nmap:
+
+```
+
+sudo nmap -sT localhost
+
+```
+Secure Copy Files Between Hosts:
+
+```
+
+scp /path/to/local/file user@remote_host:/path/to/remote/file
+
+```
