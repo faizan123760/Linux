@@ -4,11 +4,22 @@ Here is a collection of commonly used Linux administration commands across vario
 
 ### Add a New User
 
-```sudo useradd username```
+```
 
-```sudo passwd username```
+sudo useradd username
+
+```
+
+```
+sudo passwd username
+
+```
 ### Add a New Group
-```sudo groupadd groupname```
+
+```
+sudo groupadd groupname
+
+```
 
 ### Add User to a Group
 ```sudo usermod -aG groupname username```
