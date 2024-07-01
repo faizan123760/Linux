@@ -144,3 +144,85 @@ ps -ef | grep processname
 
 ## Service Management (systemd)
 ### Start a Service
+
+```
+sudo systemctl start service-name
+
+```
+
+### Stop a Service
+
+```
+sudo systemctl stop service-name
+
+```
+
+### Restart a Service
+
+```
+sudo systemctl restart service-name
+
+```
+
+### Enable a Service to Start at Boot
+
+```
+sudo systemctl enable service-name
+
+```
+
+### Disable a Service from Starting at Boot
+
+```
+sudo systemctl disable service-name
+
+```
+
+### Check the Status of a Service
+
+```
+sudo systemctl status service-name
+
+```
+
+## Networking
+### View Network Configuration:
+
+```
+ip addr show
+
+```
+
+## View Network Interfaces
+
+```
+ifconfig
+
+```
+
+## Check Connectivity with Ping
+
+```
+ping google.com
+
+```
+
+## Check Open Ports
+
+```
+netstat -tuln
+
+```
+
+## Traceroute to Diagnose Network Issues:
+
+```
+traceroute google.com
+
+```
+## Check DNS Resolution:
+
+```
+nslookup google.com
+
+```
