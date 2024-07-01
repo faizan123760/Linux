@@ -22,14 +22,29 @@ sudo groupadd groupname
 ```
 
 ### Add User to a Group
-```sudo usermod -aG groupname username```
+
+```
+sudo usermod -aG groupname username
+
+```
 
 ### Delete a User
-```sudo userdel -r username```
+
+```
+sudo userdel -r username
+
+```
 
 ### Change User Information:
-```sudo chfn username```
+
+```
+sudo chfn username
+
+```
 
 ### Change User's Shell
-```sudo chsh -s /bin/bash username```
 
+```
+sudo chsh -s /bin/bash username
+
+```
