@@ -48,3 +48,25 @@ sudo chfn username
 sudo chsh -s /bin/bash username
 
 ```
+
+## File System Management
+### View Disk Usage
+
+```
+df -h
+
+```
+
+### View Disk Space Usage by Directory
+
+```
+du -sh /path/to/directory
+
+```
+
+### Mount a Filesystem
+
+```
+sudo mount /dev/sda1 /mnt
+
+```
