@@ -35,6 +35,9 @@ sudo userdel -r username
 
 ```
 
+
+
+
 ### Change User Information:
 
 ```
@@ -268,5 +271,126 @@ Secure Copy Files Between Hosts:
 ```
 
 scp /path/to/local/file user@remote_host:/path/to/remote/file
+
+```
+
+
+## System Monitoring
+
+### Monitor System Load:
+
+```
+
+uptime
+
+```
+
+
+### Check Memory Usage:
+
+```
+
+free -h
+
+```
+
+### Monitor Disk I/O:
+
+```
+
+iostat
+
+```
+
+### View Real-Time System Logs:
+
+```
+
+tail -f /var/log/syslog
+
+```
+
+### Display Kernel Ring Buffer Messages:
+
+```
+
+dmesg
+
+```
+
+### Monitor Network Bandwidth:
+
+```
+iftop
+
+```
+
+
+## Package Management
+
+### Update Package List (Debian-based):
+
+
+
+```
+
+sudo apt update
+
+```
+
+### Upgrade All Packages (Debian-based):
+
+```
+
+sudo apt upgrade
+
+```
+
+### Install a Package (Debian-based):
+
+
+```
+
+sudo apt install package-name
+
+```
+
+### Remove a Package (Debian-based):
+
+```
+
+sudo apt remove package-name
+
+```
+
+### Update Package List (RPM-based):
+
+```
+
+sudo yum check-update
+
+```
+
+### Upgrade All Packages (RPM-based):
+
+```
+
+sudo yum update
+
+```
+
+### Install a Package (RPM-based):
+
+```
+
+sudo yum install package-name
+
+```
+
+### Remove a Package (RPM-based):
+
+```
+
+sudo yum remove package-name
 
 ```
