@@ -70,3 +70,77 @@ du -sh /path/to/directory
 sudo mount /dev/sda1 /mnt
 
 ```
+
+### Unmount a Filesystem
+
+```
+sudo umount /mnt
+
+```
+
+### Check Disk Usage Inodes
+
+```
+df -i
+
+```
+
+### Create a New Directory
+
+```
+mkdir /path/to/directory
+
+```
+
+### Change File/Directory Ownership
+
+```
+sudo chown user:group /path/to/file_or_directory
+
+```
+
+### Change File/Directory Permissions
+
+```
+chmod 755 /path/to/file_or_directory
+
+```
+
+## Process Management
+### List Running Processes
+
+```
+ps aux
+
+```
+
+### Display System Processes in Real-Time
+
+```
+top
+
+```
+
+### Terminate a Process by PID
+
+```
+kill PID
+
+```
+
+### Terminate a Process by Name
+
+```
+pkill processname
+
+```
+
+### Display Detailed Information about a Process
+
+```
+ps -ef | grep processname
+
+```
+
+## Service Management (systemd)
+### Start a Service
